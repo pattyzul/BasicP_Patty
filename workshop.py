@@ -1,5 +1,5 @@
 distance = int(input("sen tang"))
-4
+
 if (distance <5 ):
     print("ราคาเท่ากับ 0")
 elif (distance >=5 and distance <= 50):
