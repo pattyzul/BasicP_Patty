@@ -23,17 +23,18 @@ while play:
             elif (weapon == 2):
                 print(90)
                 monster = monster-90
-            else:
+            elif (weapon == 3):
                 print(60)
                 monster = monster-60
             print("monster health",monster )
             if monster == 0:
                 print("we win keng jung auan")
-            elif monster > 0 and i == tell:
+            elif monster < 0 and i == tell:
                 print("lose :(")
                 break    
     elif x == 2:
         print("kak mak ")
+
 
 
 
